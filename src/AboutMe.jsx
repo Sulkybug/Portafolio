@@ -95,8 +95,7 @@ function AboutMe() {
         <div>
           <img
             src="public/img/web-development.png"
-            alt="Visual Studio Code"
-            title="Visual Studio Code"
+            alt="CP"
             className="langImg"
             width="512"
             height="512"
