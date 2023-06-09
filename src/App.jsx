@@ -1,13 +1,31 @@
-import { useState } from "react";
 import "./App.css";
+import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
+import HeroSection from "./Components/HeroSection";
+import AboutMe from "./AboutMe";
+import MyWork from "./MyWork";
+import ContactMe from "./Components/ContactMe";
+import LateralBar from "./Components/LateralBar";
+import Footer from "./Components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [onScroll, SetOnScroll] = useState("");
+  const [classDiv, SetClassDiv] = useState("focusArea");
+
+  window.onscroll = function () {
+    SetOnScroll(window.pageYOffset > 0 ? "scroll-nav" : "");
+    SetClassDiv(window.pageYOffset > 0 ? "" : "focusArea");
+  };
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar onScroll={onScroll} SetOnScroll={SetOnScroll} />
+      <HeroSection classDiv={classDiv} SetClassDiv={SetClassDiv} />
+      <AboutMe />
+      <MyWork />
+      <ContactMe />
+      <LateralBar />
+      <Footer />
     </div>
   );
 }

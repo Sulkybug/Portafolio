@@ -1,0 +1,205 @@
+#ContactMe {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background: linear-gradient(rgba(25, 14, 0, 0.671), rgba(0, 0, 25, 0.9)),
+    url(/img/background-leaves.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.contactMeBox {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+  background: linear-gradient(62deg, #101011dc 0%, #3a3d4085 100%);
+  height: 60vh;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ContactImg {
+  width: 400px;
+  height: 400px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.titleContactMe {
+  margin-top: -70px;
+  position: relative;
+  top: 115px;
+  font-family: "Monomaniac One", sans-serif;
+  font-size: 58px;
+  background-color: rgba(250, 235, 215, 0);
+  color: antiquewhite;
+  z-index: 4;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+hr {
+  width: 500px;
+  margin-bottom: 30px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.p-ContactMe {
+  color: antiquewhite;
+  text-shadow: none;
+  font-size: 22px;
+  margin-bottom: 10px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+input {
+  margin: auto;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding: 3px;
+  padding-left: 7px;
+  background-color: #18171956;
+  z-index: 2;
+  color: antiquewhite;
+  border: 1px solid rgba(250, 235, 215, 0.897);
+  border-radius: 5px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+textarea {
+  margin: auto;
+  max-width: 500px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+  padding-left: 7px;
+  border: 0;
+  border: 1px solid rgba(250, 235, 215, 0.897);
+  border-radius: 5px;
+  background-color: #18171956;
+  z-index: 2;
+  color: antiquewhite;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.sendMessage {
+  color: antiquewhite;
+  border: 2px solid antiquewhite;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 8px;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.678) 2px 0 10px;
+  cursor: pointer;
+  z-index: 2;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.sendMessage:hover {
+  color: white;
+  border: 2px solid salmon;
+  scale: 1.1;
+  transition: 0.2s;
+  background: rgba(250, 128, 114, 0.26);
+  box-shadow: orange 2px 0 10px;
+  text-shadow: black 1px 0 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #ContactMe {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .contactMeBox {
+    flex-direction: column;
+    height: 85vh;
+  }
+
+  .ContactImg {
+    width: 250px;
+    height: 250px;
+  }
+
+  .titleContactMe {
+    font-size: 40px;
+    top: 55px;
+  }
+
+  input {
+    margin: 5px;
+    width: 80%;
+    font-size: 18px;
+  }
+
+  textarea {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .sendMessage {
+    font-size: 18px;
+  }
+
+  hr {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .titleContactMe {
+    top: 50px;
+    font-size: 40px;
+  }
+
+  textarea {
+    width: 70%;
+  }
+
+  hr {
+    width: 300px;
+  }
+
+  .ContactImg {
+    width: 350px;
+    height: 350px;
+  }
+
+  .contactMeBox {
+    height: 70vh;
+    width: 70%;
+    font-size: 20px;
+  }
+
+  input {
+    margin: 5px;
+    width: 70%;
+    font-size: 18px;
+  }
+
+  .sendMessage {
+    font-size: 18px;
+  }
+}

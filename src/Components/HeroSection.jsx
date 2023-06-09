@@ -1,0 +1,47 @@
+import React, { useState } from "react";
+import "./HeroSection.css";
+function HeroSection({ classDiv }) {
+  const [MousePosition, setMousePosition] = useState({
+    left: 800,
+    top: 400,
+  });
+
+  function dataMouse(e) {
+    setMousePosition({
+      left: e.pageX - 150,
+      top: e.pageY - 150,
+    });
+  }
+
+  return (
+    <div className="hero-container" onMouseMove={dataMouse}>
+      <h1>Hey, I'm Andres Angulo</h1>
+      <div
+        className={classDiv}
+        style={{
+          left: `${MousePosition.left}px`,
+          top: `${MousePosition.top}px`,
+        }}
+      ></div>
+      <div className="box">
+        <p className="underH1">Web Developer </p>
+        <img
+          src="/img/message-code.png"
+          alt="coding"
+          className="code-img"
+          width="512"
+          height="512"
+        />
+      </div>
+      <p className="description">
+        "JR Frontend Developer from Colombia focused in simple and efficent code
+        paying attention to details."
+      </p>
+      <a href="#myWork">
+        <button className="btn-Projects">Check Out My Projects 🡻</button>
+      </a>
+    </div>
+  );
+}
+
+export default HeroSection;

@@ -1,0 +1,194 @@
+#myWork {
+  height: 100vh;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.boxProjects {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.titleMyWork {
+  padding-top: 80px;
+  color: rgba(0, 0, 0, 0.89);
+  color: antiquewhite;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.589));
+  text-shadow: none;
+  text-shadow: black 2px 0 10px;
+  font-size: 58px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.workDescription {
+  color: #020202e8;
+  margin-top: 20px;
+  text-shadow: none;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.projectName {
+  color: antiquewhite;
+  text-shadow: black 2px 0 10px;
+  font-size: 22px;
+  margin: none;
+  margin-right: 70px;
+  margin-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.project {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: url(/img/background-leaves.jpg);
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgLink[data]:hover:after {
+  content: attr(data);
+  font-size: 25px;
+  padding: 4px 8px;
+  color: antiquewhite;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 3;
+  border-radius: 5px;
+  background: rgb(0, 0, 0);
+}
+.imgLink:hover,
+.project img:hover {
+  background: rgba(76, 175, 80, 0.3);
+  opacity: 0.7;
+  scale: 1.016;
+  transition: 0.5s;
+}
+
+.project:hover {
+  background: rgba(76, 175, 80, 0.3);
+  text-shadow: black 2px 0 10px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.imgLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkCode {
+  color: rgb(212, 191, 191);
+  text-shadow: black 2px 0 10px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.checkCode:hover {
+  color: salmon;
+  font-size: 19px;
+  transition: 0.8s;
+  text-shadow: black 2px 0 10px;
+  background-color: rgba(0, 0, 0, 0.329);
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-shadow: inset 150px 0 0 0 salmon;
+  color: white;
+}
+
+.textBox {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .titleMyWork {
+    font-size: 30px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .workDescription {
+    margin-bottom: 50px;
+  }
+  .imgProj {
+    height: 300px;
+  }
+
+  .imgLink[data]:hover:after {
+    font-size: 22px;
+  }
+
+  .checkCode {
+    font-size: 15px;
+  }
+
+  .checkCode:hover {
+    font-size: 18px;
+  }
+
+  .projectName {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .textBox {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .workDescription {
+    font-size: 19px;
+    padding-bottom: 5px;
+  }
+
+  .titleMyWork {
+    padding-top: 60px;
+  }
+
+  .workDescription {
+    margin-top: 0;
+  }
+
+  .project {
+    margin-top: 10px;
+  }
+
+  .imgProj {
+    height: 300px;
+  }
+
+  .projectName {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

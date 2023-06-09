@@ -1,0 +1,130 @@
+#aboutMe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 3;
+  height: 100vh;
+  background: linear-gradient(62deg, #101011 0%, #3a3d40 100%);
+}
+
+.coverVideo {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 25, 0.205), rgba(0, 0, 25, 0.452));
+  position: absolute;
+  z-index: 5;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+}
+
+.boxAbout {
+  background: linear-gradient(62deg, #101011dc 0%, #3a3d4085 100%);
+  width: 300px;
+  height: 340px;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}
+
+.langTitle {
+  color: antiquewhite;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  font-size: 40px;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.boxIcons {
+  padding: 2px;
+  width: 253px;
+  top: 80px;
+}
+
+.langImg {
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+}
+
+.langImg:hover {
+  scale: 1.2;
+  transition: 0.5s;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+
+.boxAboutMe {
+  background: linear-gradient(62deg, #101011dc 0%, #3a3d4085 100%);
+  width: 500px;
+  height: 440px;
+  padding: 20px;
+  border-radius: 10px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  z-index: 6;
+}
+
+.textAboutMe {
+  color: antiquewhite;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  font-size: 19px;
+  text-align: justify;
+  padding: 10px 15px 15px 10px;
+}
+
+.titleAbout {
+  color: antiquewhite;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  font-size: 28px;
+  font-family: "Monomaniac One", sans-serif;
+}
+
+.hrAbout {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sendToContact {
+  color: antiquewhite;
+  border: 3px solid antiquewhite;
+  text-shadow: black 2px 0 10px;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 8px;
+  background: none;
+  box-shadow: black 2px 0 10px;
+  cursor: pointer;
+}
+
+.sendToContact:hover {
+  color: salmon;
+  border: 4px solid salmon;
+  scale: 1.05;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.384);
+  box-shadow: orange 2px 0 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #aboutMe {
+    flex-direction: column;
+  }
+
+  .boxAbout {
+    scale: 0.8;
+  }
+  .boxAboutMe {
+    scale: 0.8;
+  }
+}
