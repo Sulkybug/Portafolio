@@ -17,7 +17,7 @@ function AboutMe() {
         <p className="langTitle">My ToolBox</p>
         <div className="boxIcons">
           <img
-            src="./img/js.png"
+            src="/Portafolio/img/js.png"
             alt="Javascript"
             title="Javascript"
             className="langImg"
@@ -25,7 +25,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/typescript.png"
+            src="/Portafolio/img/typescript.png"
             alt="typescript"
             title="Typescript"
             className="langImg"
@@ -33,7 +33,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/css-3.png"
+            src="/Portafolio/img/css-3.png"
             alt="CSS"
             title="CSS"
             className="langImg"
@@ -41,7 +41,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/html-5.png"
+            src="/Portafolio/img/html-5.png"
             alt="HTML"
             title="HTML"
             className="langImg"
@@ -49,7 +49,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/react.png"
+            src="/Portafolio/img/react.png"
             alt="REACT"
             title="REACT"
             className="langImg"
@@ -57,7 +57,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/git.png"
+            src="/Portafolio/img/git.png"
             alt="Git"
             title="Git"
             className="langImg"
@@ -65,7 +65,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/sass.png"
+            src="/Portafolio/img/sass.png"
             alt="Sass"
             title="Sass"
             className="langImg"
@@ -73,7 +73,7 @@ function AboutMe() {
             height="512"
           />
           <img
-            src="./img/github.png"
+            src="/Portafolio/img/github.png"
             alt="github"
             title="Github"
             className="langImg"
@@ -82,7 +82,7 @@ function AboutMe() {
           />
 
           <img
-            src="./img/visual-studio.png"
+            src="/Portafolio/img/visual-studio.png"
             alt="Visual Studio Code"
             title="Visual Studio Code"
             className="langImg"
@@ -94,14 +94,14 @@ function AboutMe() {
       <div className="boxAboutMe">
         <div>
           <img
-            src="./img/web-development.png"
+            src="/Portafolio/img/web-development.png"
             alt="CP"
             className="langImg"
             width="512"
             height="512"
           />
           <img
-            src="./img/pilot.png"
+            src="/Portafolio/img/pilot.png"
             alt="Pilot"
             title="Andres A"
             className="langImg"

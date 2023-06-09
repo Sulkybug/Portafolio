@@ -26,7 +26,7 @@ function HeroSection({ classDiv }) {
       <div className="box">
         <p className="underH1">Web Developer </p>
         <img
-          src="/img/message-code.png"
+          src="/Portafolio/img/message-code.png"
           alt="coding"
           className="code-img"
           width="512"
