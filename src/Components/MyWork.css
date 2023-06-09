@@ -32,6 +32,7 @@
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Monomaniac One", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .hrMyWork {
@@ -128,7 +129,7 @@
 
 @media only screen and (max-height: 1400px) {
   .titleMyWork {
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 50px;
   }
 
@@ -149,7 +150,7 @@
   }
 
   .titleMyWork {
-    font-size: 28px;
+    font-size: 23px;
     padding-top: 0px;
     margin-bottom: 10px;
   }

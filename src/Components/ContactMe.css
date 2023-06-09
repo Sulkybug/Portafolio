@@ -188,7 +188,7 @@ textarea {
   .contactMeBox {
     flex-direction: column;
     height: 85vh;
-    width: 85%;
+    width: 80%;
   }
 
   .p-ContactMe {
