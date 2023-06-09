@@ -1,9 +1,8 @@
-import "./App.css";
 import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
-import AboutMe from "./AboutMe";
-import MyWork from "./MyWork";
+import AboutMe from "./Components/AboutMe";
+import MyWork from "./Components/MyWork";
 import ContactMe from "./Components/ContactMe";
 import LateralBar from "./Components/LateralBar";
 import Footer from "./Components/Footer";
