@@ -13,7 +13,7 @@ const Navbar = ({ onScroll }) => {
   return (
     <header className={onScroll}>
       <a href="#" className="navbar-logo">
-        <img src="/img/logo.png" alt="icon" className="myLogo" />
+        <img src="./img/logo.png" alt="icon" className="myLogo" />
         <h2 className="logoText">SulkyBug</h2>
       </a>
       <nav ref={navRef}>

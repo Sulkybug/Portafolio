@@ -11,7 +11,7 @@ function ContactMe() {
       <div className="contactMeBox">
         <div>
           <img
-            src="/img/developer.png"
+            src="./img/developer.png"
             alt="SulkyBug"
             className="ContactImg"
             height="512"
