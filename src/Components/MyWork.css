@@ -6,7 +6,7 @@
   background-color: #ccc;
   background: linear-gradient(rgba(0, 0, 25, 0.205), rgba(0, 0, 25, 0.452));
   background: linear-gradient(62deg, #101011e8 0%, #82868acc 100%),
-    url(public/img/nature.jpg);
+    url(/img/nature.jpg);
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -27,8 +27,7 @@
 .titleMyWork {
   padding: 0px;
   color: antiquewhite;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.589));
-  text-shadow: none;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.945));
   font-size: 58px;
   margin-bottom: 10px;
   font-weight: bold;
