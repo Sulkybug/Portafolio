@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap");
@@ -13,9 +11,7 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
   font-family: "Monomaniac One", sans-serif;
-  font-family: "Mulish", sans-serif;
   font-family: "Aoboshi One", serif;
   font-family: "Tilt Prism", cursive;
   font-family: "Ubuntu", sans-serif;
