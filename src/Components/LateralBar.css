@@ -32,20 +32,21 @@
   scale: 1.1;
 }
 
-@media only screen and (max-width: 1024px) {
-  .buttonsBar {
-    bottom: 300px;
-    gap: 2%;
-  }
-
-  .buttonsBar a {
-    width: 45px;
-    height: 45px;
-  }
-}
-
 @media only screen and (max-height: 700px) {
   .buttonsBar {
     bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .buttonsBar {
+    bottom: 300px;
+    gap: 4%;
+    scale: 0.8;
+  }
+
+  .buttonsBar a {
+    width: 35px;
+    height: 35px;
   }
 }

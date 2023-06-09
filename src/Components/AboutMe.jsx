@@ -103,7 +103,6 @@ function AboutMe() {
           <img
             src="/Portafolio/img/pilot.png"
             alt="Pilot"
-            title="Andres A"
             className="langImg"
             width="512"
             height="512"
@@ -117,7 +116,8 @@ function AboutMe() {
           <strong> JR Frontend Developer Javascript, ReactJS. </strong> I love
           learning and applying my knowlege, always thinking how make things in
           the best way possible.
-          <br />
+        </p>
+        <p className="textAboutMe">
           Currently improving my skills in Algorithm solutions, AI and Computer
           Science learning about Javascript Canvas.
         </p>

@@ -116,13 +116,31 @@ p {
   box-shadow: orange 2px 0 10px;
 }
 
+@media only screen and (max-width: 1400px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .underH1 {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 25px;
+  }
+
+  .btn-Projects {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .hero-container {
     font-size: 20px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   p {
@@ -130,7 +148,7 @@ p {
   }
 
   .underH1 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .code-img {
@@ -139,33 +157,16 @@ p {
   }
 
   .description {
-    font-size: 25px;
-    width: 350px;
+    font-size: 18px;
+    width: 280px;
   }
 
   .btn-Projects {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .focusArea {
     width: 0px;
     height: 0px;
-  }
-}
-
-@media only screen and (max-height: 700px) {
-  h1 {
-    font-size: 55px;
-  }
-  .underH1 {
-    font-size: 40px;
-  }
-  .description {
-    font-size: 25px;
-    width: 400px;
-  }
-
-  .btn-Projects {
-    font-size: 20px;
   }
 }

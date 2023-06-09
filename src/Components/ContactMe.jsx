@@ -9,11 +9,11 @@ function ContactMe() {
         <h2 className="titleContactMe"> Hey there!</h2>
       </div>
       <div className="contactMeBox">
-        <div>
+        <div className="boxImgContact">
           <img
+            className="ContactImg"
             src="/Portafolio/img/developer.png"
             alt="SulkyBug"
-            className="ContactImg"
             height="512"
             width="512"
           />
@@ -21,7 +21,7 @@ function ContactMe() {
 
         <div className="formBox">
           <p className="p-ContactMe">Let's work together... </p>
-          <hr />
+          <hr className="hrContact" />
           <form
             action="https://formsubmit.co/feang_c0@hotmail.com"
             method="post"

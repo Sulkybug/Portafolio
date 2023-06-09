@@ -1,7 +1,15 @@
 #myWork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: #ccc;
+  background: linear-gradient(rgba(0, 0, 25, 0.205), rgba(0, 0, 25, 0.452));
+  background: linear-gradient(62deg, #101011e8 0%, #82868acc 100%),
+    url(public/img/nature.jpg);
   text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
 .boxProjects {
@@ -17,24 +25,18 @@
 }
 
 .titleMyWork {
-  padding-top: 80px;
-  color: rgba(0, 0, 0, 0.89);
+  padding: 0px;
   color: antiquewhite;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.589));
   text-shadow: none;
-  text-shadow: black 2px 0 10px;
   font-size: 58px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Monomaniac One", sans-serif;
 }
 
-.workDescription {
-  color: #020202e8;
-  margin-top: 20px;
-  text-shadow: none;
-  font-size: 22px;
-  font-weight: lighter;
+.hrMyWork {
+  width: 300px;
 }
 
 .projectName {
@@ -125,16 +127,34 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-height: 1400px) {
   .titleMyWork {
-    font-size: 30px;
-    padding-top: 100px;
-    margin-bottom: 20px;
-  }
-
-  .workDescription {
+    font-size: 38px;
     margin-bottom: 50px;
   }
+
+  .project {
+    margin-top: 10px;
+  }
+
+  .projectName {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .boxProjects {
+    width: 80%;
+  }
+
+  .titleMyWork {
+    font-size: 28px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+  }
+
   .imgProj {
     height: 300px;
   }
@@ -162,33 +182,8 @@
     flex-direction: column;
     margin-bottom: 10px;
   }
-}
 
-@media only screen and (max-height: 700px) {
-  .workDescription {
-    font-size: 19px;
-    padding-bottom: 5px;
-  }
-
-  .titleMyWork {
-    padding-top: 60px;
-  }
-
-  .workDescription {
-    margin-top: 0;
-  }
-
-  .project {
-    margin-top: 10px;
-  }
-
-  .imgProj {
-    height: 300px;
-  }
-
-  .projectName {
-    font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  .slick-slide > div {
+    scale: 0.9;
   }
 }

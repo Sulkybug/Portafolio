@@ -80,7 +80,7 @@ iframe {
   filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
   font-size: 19px;
   text-align: justify;
-  padding: 10px 15px 15px 10px;
+  padding: 0px 15px 10px 15px;
 }
 
 .titleAbout {
@@ -101,6 +101,7 @@ iframe {
   text-shadow: black 2px 0 10px;
   font-size: 17px;
   padding: 5px;
+  margin-top: 15px;
   border-radius: 8px;
   background: none;
   box-shadow: black 2px 0 10px;
@@ -116,15 +117,35 @@ iframe {
   box-shadow: orange 2px 0 10px;
 }
 
-@media only screen and (max-width: 1024px) {
-  #aboutMe {
-    flex-direction: column;
-  }
-
+@media only screen and (max-width: 1400px) {
   .boxAbout {
     scale: 0.8;
   }
+
   .boxAboutMe {
-    scale: 0.8;
+    scale: 0.9;
+    width: 500px;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #aboutMe {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .boxAbout {
+    scale: 0.5;
+  }
+
+  .boxAboutMe {
+    scale: 0.6;
+    width: 500px;
+    height: 450px;
+  }
+
+  .hrAbout {
+    margin-bottom: 20px;
   }
 }
