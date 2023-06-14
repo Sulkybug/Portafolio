@@ -1,0 +1,45 @@
+.preLoader {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: antiquewhite;
+  position: fixed;
+  z-index: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.myLogoPreload {
+  width: 40px;
+  height: 40px;
+}
+
+.hidePreLoad {
+  display: none;
+}
+
+.preLoader h2 {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 10px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 90px;
+  animation: type 2.5s steps(12, end) forwards infinite;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%,
+  99% {
+    border-right: 1px solid antiquewhite;
+  }
+  100% {
+    border-right: none;
+  }
+}

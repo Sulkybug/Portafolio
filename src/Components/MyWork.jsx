@@ -60,6 +60,7 @@ function MyWork() {
                   alt={item.name}
                   height="550"
                   className="imgProj"
+                  loading="lazy"
                 />
               </a>
               <div className="textBox">

@@ -32,6 +32,7 @@ function HeroSection({ classDiv }) {
           className="code-img"
           width="512"
           height="512"
+          loading="lazy"
         />
       </div>
       <p className="description">

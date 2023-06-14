@@ -16,6 +16,7 @@ function ContactMe() {
             alt="SulkyBug"
             height="512"
             width="512"
+            loading="lazy"
           />
         </div>
 

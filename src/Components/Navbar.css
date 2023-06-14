@@ -114,8 +114,7 @@ header .nav-btn {
 }
 
 nav a:hover,
-.navbar-logo:hover,
-.nav-btn:hover {
+.navbar-logo:hover {
   color: var(--secondColor);
   scale: 1.1;
   transition: 0.5s;
@@ -158,6 +157,7 @@ nav a:hover,
       ),
       url(/img/background-leaves.jpg);
     transform: translateY(-100vh);
+    transition: 0.5s ease;
   }
 
   .logoText {
@@ -185,7 +185,7 @@ nav a:hover,
   }
 
   nav a:hover {
-    color: white;
+    color: salmon;
     box-shadow: inset 1024px 0 10px 0 rgba(161, 201, 16, 0.178);
     background: rgba(0, 0, 0, 0.63);
     background-size: cover;
@@ -197,6 +197,11 @@ nav a:hover,
   nav .nav-close-btn {
     position: absolute;
     top: 0.6rem;
-    right: 2rem;
+    right: 3rem;
+  }
+
+  nav .nav-close-btn:hover,
+  .nav-btn:hover {
+    color: salmon;
   }
 }

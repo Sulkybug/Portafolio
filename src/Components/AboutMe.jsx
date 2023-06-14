@@ -23,6 +23,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/typescript.png"
@@ -31,6 +32,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/css-3.png"
@@ -39,6 +41,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/html-5.png"
@@ -47,6 +50,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/react.png"
@@ -55,6 +59,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/git.png"
@@ -63,6 +68,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/sass.png"
@@ -71,6 +77,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/github.png"
@@ -79,6 +86,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
 
           <img
@@ -88,6 +96,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
         </div>
       </div>
@@ -99,6 +108,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
           <img
             src="/Portafolio/img/pilot.png"
@@ -106,6 +116,7 @@ function AboutMe() {
             className="langImg"
             width="512"
             height="512"
+            loading="lazy"
           />
         </div>
 
