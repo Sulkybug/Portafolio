@@ -81,7 +81,8 @@ nav {
 nav a {
   display: flex;
   flex-direction: row;
-  margin: 0 5rem;
+  justify-content: space-between;
+  padding: 0 3.28rem;
   color: var(--textColor);
   text-decoration: none;
   font-size: 18px;
@@ -126,15 +127,16 @@ nav a:hover,
   transition: 0.5s;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1044px) {
   header .nav-btn {
     display: flex;
     visibility: visible;
     opacity: 1;
+    font-size: 22px;
   }
 
   header {
-    padding: 0 2rem;
+    padding: 0 1.5rem;
     padding-left: 15px;
     justify-content: space-between;
   }
@@ -195,8 +197,9 @@ nav a:hover,
   }
 
   nav .nav-close-btn {
+    font-size: 22px;
     position: absolute;
-    top: 0.6rem;
+    top: 1rem;
     right: 1.5rem;
   }
 

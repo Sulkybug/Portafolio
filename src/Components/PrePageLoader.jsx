@@ -18,6 +18,7 @@ function PrePageLoader() {
         src="/Portafolio/img/logo.png"
         alt="icon"
         className="myLogoPreload"
+        loading="lazy"
       />
       <h2 className="textLoading">Loading..</h2>
     </div>

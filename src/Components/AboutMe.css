@@ -79,7 +79,7 @@ iframe {
   color: antiquewhite;
   filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
   font-size: 19px;
-  text-align: justify;
+  text-align: center;
   padding: 0px 15px 10px 15px;
 }
 
@@ -87,6 +87,7 @@ iframe {
   color: antiquewhite;
   filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
   font-size: 28px;
+  margin-bottom: 0px;
   font-family: "Monomaniac One", sans-serif;
 }
 
@@ -101,6 +102,7 @@ iframe {
   text-shadow: black 2px 0 10px;
   font-size: 17px;
   padding: 5px;
+  padding-bottom: 7px;
   margin-top: 15px;
   border-radius: 8px;
   background: none;
@@ -148,5 +150,13 @@ iframe {
 
   .hrAbout {
     margin-bottom: 20px;
+  }
+
+  .titleAbout {
+    margin-bottom: 10px;
+  }
+
+  .textAboutMe {
+    text-align: justify;
   }
 }

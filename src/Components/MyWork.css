@@ -28,7 +28,7 @@
   padding: 0px;
   color: antiquewhite;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.945));
-  font-size: 58px;
+  font-size: 30px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Monomaniac One", sans-serif;
@@ -42,10 +42,8 @@
 .projectName {
   color: antiquewhite;
   text-shadow: black 2px 0 10px;
-  font-size: 22px;
-  margin: none;
-  margin-right: 70px;
-  margin-left: 70px;
+  font-size: 20px;
+  margin: 10px 70px 10px 70px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -127,9 +125,9 @@
   align-items: center;
 }
 
-@media only screen and (max-height: 1400px) {
+@media only screen and (max-width: 1400px) {
   .titleMyWork {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 50px;
   }
 
@@ -139,9 +137,15 @@
 
   .projectName {
     font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-top: 5px;
     padding-bottom: 5px;
   }
+}
+
+.boxProjects {
+  width: 85%;
 }
 
 @media only screen and (max-width: 1024px) {
