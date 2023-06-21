@@ -7,7 +7,6 @@ function PrePageLoader() {
   useEffect(() => {
     const timer = setTimeout(() => {
       SetWebStar("hidePreLoad");
-      console.log("I am here");
     }, 5000);
     return () => clearTimeout(timer);
   }, []);
