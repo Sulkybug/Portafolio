@@ -10,7 +10,7 @@ footer {
 
 .footer-text {
   color: antiquewhite;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 1024px) {

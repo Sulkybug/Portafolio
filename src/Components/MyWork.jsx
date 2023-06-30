@@ -44,7 +44,7 @@ function MyWork() {
   return (
     <section id="myWork">
       <div className="boxProjects">
-        <h2 className="titleMyWork">Here are a few projects I've worked on.</h2>
+        <h2 className="titleMyWork">Some projects I've worked on.</h2>
 
         <Slider {...settings}>
           {Projects.map((item) => (

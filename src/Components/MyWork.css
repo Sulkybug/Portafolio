@@ -4,12 +4,15 @@
   align-items: center;
   height: 100vh;
   background-color: #ccc;
-  background: linear-gradient(rgba(0, 0, 25, 0.205), rgba(0, 0, 25, 0.452));
-  background: linear-gradient(62deg, #101011e8 0%, #82868acc 100%),
+  background: linear-gradient(62deg, #101011ef 0%, #737c76cc 100%),
     url(/img/nature.jpg);
+
+  background-attachment: fixed;
+
   text-align: center;
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
 .boxProjects {
@@ -28,7 +31,7 @@
   padding: 0px;
   color: antiquewhite;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.945));
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: "Monomaniac One", sans-serif;
@@ -154,7 +157,7 @@
   }
 
   .titleMyWork {
-    font-size: 23px;
+    font-size: 22px;
     padding-top: 0px;
     margin-bottom: 10px;
   }

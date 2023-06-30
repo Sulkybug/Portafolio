@@ -1,12 +1,5 @@
 export const Projects = [
   {
-    id: 1,
-    name: "Digital Watch & Chronometer",
-    img: "/Portafolio/img/project1.jpg",
-    link: "https://sulkybug.github.io/Digital-Watch-chronometer/",
-    codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer",
-  },
-  {
     id: 2,
     name: "Tic Tac Toe",
     img: "/Portafolio/img/project2.jpg",
@@ -34,6 +27,14 @@ export const Projects = [
     link: "https://sulkybug.github.io/monkeyFist-OnlineStore-Concept/",
     codeLink: "https://github.com/Sulkybug/monkeyFist-OnlineStore-Concept",
   },
+
+  {
+    id: 1,
+    name: "Digital Watch & Chronometer",
+    img: "/Portafolio/img/project1.jpg",
+    link: "https://sulkybug.github.io/Digital-Watch-chronometer/",
+    codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer",
+  },
   {
     id: 6,
     name: "Mini Piano",
@@ -47,5 +48,20 @@ export const Projects = [
     img: "/Portafolio/img/project7.jpg",
     link: "https://sulkybug.github.io/Sulkybug.CodificadorCaesarCipher/",
     codeLink: "https://github.com/Sulkybug/Sulkybug.CodificadorCaesarCipher",
+  },
+  {
+    id: 8,
+    name: "Converter",
+    img: "/Portafolio/img/project8.jpg",
+    link: "https://sulkybug.github.io/Converter/",
+    codeLink: "https://github.com/Sulkybug/Converter",
+  },
+
+  {
+    id: 9,
+    name: "List of Things to do",
+    img: "/Portafolio/img/project9.jpg",
+    link: "https://sulkybug.github.io/List-of-things-to-do/",
+    codeLink: "https://github.com/Sulkybug/List-of-things-to-do",
   },
 ];
