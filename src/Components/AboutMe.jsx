@@ -7,7 +7,7 @@ function AboutMe() {
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/Rcv7BzNfPvU?controls=0&autoplay=1&mute=1&playsinline=1&playlist=Rcv7BzNfPvU&loop=1"
+        src="https://www.youtube.com/embed/O3pz7XtMOF8?controls=0&autoplay=1&mute=1&playsinline=1&playlist=O3pz7XtMOF8&loop=1"
         title="YouTube video player"
         frameBorder="0"
         allow="autoplay; encrypted-media; picture-in-picture; web-share"
