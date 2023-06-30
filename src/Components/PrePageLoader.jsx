@@ -13,12 +13,6 @@ function PrePageLoader() {
 
   return (
     <div className={WebStar}>
-      <img
-        src="/Portafolio/img/logo.png"
-        alt="icon"
-        className="myLogoPreload"
-        loading="lazy"
-      />
       <h2 className="textLoading">Loading..</h2>
     </div>
   );

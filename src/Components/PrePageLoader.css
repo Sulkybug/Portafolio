@@ -11,11 +11,6 @@
   overflow: hidden;
 }
 
-.myLogoPreload {
-  width: 40px;
-  height: 40px;
-}
-
 .hidePreLoad {
   display: none;
 }
