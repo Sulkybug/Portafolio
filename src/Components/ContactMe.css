@@ -120,7 +120,7 @@ textarea {
 .sendMessage:hover {
   color: salmon;
   border: 2px solid salmon;
-  scale: 1.1;
+  scale: 1.05;
   transition: 0.2s;
   box-shadow: orange 2px 0 10px;
   text-shadow: black 1px 0 5px;

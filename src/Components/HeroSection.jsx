@@ -19,7 +19,7 @@ function HeroSection({ classDiv }) {
       <h1>Hey, I'm Andres Angulo</h1>
       <div
         className={classDiv}
-        style={{
+        style={{  
           left: `${MousePosition.left}px`,
           top: `${MousePosition.top}px`,
         }}

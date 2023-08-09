@@ -1,27 +1,27 @@
 export const Projects = [
   {
-    id: 2,
+    id: 1,
     name: "Tic Tac Toe",
     img: "/Portafolio/img/project2.jpg",
     link: "https://sulkybug.github.io/Sulkybug.Tic-Tac-Toe.Game./",
     codeLink: "https://github.com/Sulkybug/Sulkybug.Tic-Tac-Toe.Game.",
   },
   {
-    id: 3,
+    id: 2,
     name: "Wheater App",
     img: "/Portafolio/img/project3.jpg",
     link: "https://sulkybug.github.io/Sulkybug-Weather-app-/",
     codeLink: "https://github.com/Sulkybug/Sulkybug-Weather-app-",
   },
   {
-    id: 4,
+    id: 3,
     name: "7 Segment Display",
     img: "/Portafolio/img/project4.jpg",
-    link: "https://sulkybug.github.io/Sulkybug-7-Segment-Display/",
-    codeLink: "https://github.com/Sulkybug/Sulkybug-7-Segment-Display",
+    link: "https://sulkybug.github.io/7-Segment-Display/",
+    codeLink: "https://github.com/Sulkybug/7-Segment-Display",
   },
   {
-    id: 5,
+    id: 4,
     name: "Product Website Concept ",
     img: "/Portafolio/img/project5.jpg",
     link: "https://sulkybug.github.io/monkeyFist-OnlineStore-Concept/",
@@ -29,11 +29,11 @@ export const Projects = [
   },
 
   {
-    id: 1,
+    id: 5,
     name: "Digital Watch & Chronometer",
     img: "/Portafolio/img/project1.jpg",
     link: "https://sulkybug.github.io/Digital-Watch-chronometer/",
-    codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer",
+    codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer-TS/",
   },
   {
     id: 6,
@@ -46,8 +46,8 @@ export const Projects = [
     id: 7,
     name: "Caesar Cipher ROT ALL",
     img: "/Portafolio/img/project7.jpg",
-    link: "https://sulkybug.github.io/Sulkybug.CodificadorCaesarCipher/",
-    codeLink: "https://github.com/Sulkybug/Sulkybug.CodificadorCaesarCipher",
+    link: "https://sulkybug.github.io/Codificador-Caesar-Cipher/",
+    codeLink: "https://github.com/Sulkybug/Codificador-Caesar-Cipher",
   },
   {
     id: 8,

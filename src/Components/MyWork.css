@@ -110,15 +110,14 @@
 
 .checkCode:hover {
   color: salmon;
-  font-size: 19px;
   transition: 0.8s;
-  text-shadow: black 2px 0 10px;
+  text-shadow: none;
   background-color: rgba(0, 0, 0, 0.329);
   border-radius: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 5px;
   box-shadow: inset 150px 0 0 0 salmon;
-  color: white;
+  color: black;
+  font-weight: 700;
 }
 
 .textBox {
