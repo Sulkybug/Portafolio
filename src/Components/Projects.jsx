@@ -56,9 +56,15 @@ export const Projects = [
     link: "https://sulkybug.github.io/Converter/",
     codeLink: "https://github.com/Sulkybug/Converter",
   },
-
   {
     id: 9,
+    name: "Bakery Website",
+    img: "/Portafolio/img/project10.jpg",
+    link: "https://sulkybug.github.io/ZeroPorcientoAzucar/",
+    codeLink: "https://github.com/Sulkybug/ZeroPorcientoAzucar",
+  },
+  {
+    id: 10,
     name: "List of Things to do",
     img: "/Portafolio/img/project9.jpg",
     link: "https://sulkybug.github.io/List-of-things-to-do/",

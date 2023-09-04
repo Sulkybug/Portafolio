@@ -124,7 +124,7 @@ function AboutMe() {
         <hr className="hrAbout" />
         <p className="textAboutMe">
           I am a Pilot and a{" "}
-          <strong> JR Frontend Developer Javascript, ReactJS. </strong> I love
+          <strong>Frontend Developer Javascript, ReactJS. </strong> I love
           learning and applying my knowlege, always thinking how to make things
           in the best way possible.
         </p>

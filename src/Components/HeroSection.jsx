@@ -19,7 +19,7 @@ function HeroSection({ classDiv }) {
       <h1>Hey, I'm Andres Angulo</h1>
       <div
         className={classDiv}
-        style={{  
+        style={{
           left: `${MousePosition.left}px`,
           top: `${MousePosition.top}px`,
         }}
@@ -36,8 +36,8 @@ function HeroSection({ classDiv }) {
         />
       </div>
       <p className="description">
-        "JR Frontend Developer from Colombia detail-oriented, focused in simple
-        and efficent coding."
+        "Frontend Developer from Colombia detail-oriented, focused in simple and
+        efficent coding."
       </p>
       <a href="#myWork" className="sendToPortafolio">
         <button className="btn-Projects">

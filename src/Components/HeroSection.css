@@ -2,14 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 
 .hero-container {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.623),
-      rgba(109, 71, 1, 0.24),
-      rgba(0, 0, 0, 0.623)
-    ),
-    url(/img/wallpaperleaves.jpeg);
-
-  background: linear-gradient(rgba(0, 0, 25, 0.671), rgba(0, 0, 25, 0.9)),
+  background: linear-gradient(rgba(0, 0, 25, 0.671), rgba(0, 0, 25, 0.938)),
     url(/img/wallpaperleaves.jpeg);
   width: 100%;
   height: 100vh;
@@ -176,6 +169,7 @@ p {
 
   .btn-Projects {
     font-size: 15px;
+    margin-top: 40px;
     padding-bottom: 7px;
     border: 2px solid antiquewhite;
   }

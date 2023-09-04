@@ -6,9 +6,9 @@
   background-color: #ccc;
   background: linear-gradient(62deg, #101011ef 0%, #737c76cc 100%),
     url(/img/nature.jpg);
-
+  background: linear-gradient(62deg, #020202da 0%, #737c76cc 100%),
+    url(/img/nature.jpg);
   background-attachment: fixed;
-
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -28,13 +28,15 @@
 }
 
 .titleMyWork {
-  padding: 0px;
+  width: 50%;
+  clip-path: polygon(0% 0%, 94% 0%, 100% 100%, 6% 100%);
+  background: linear-gradient(62deg, #101011dc 0%, #3a3d4085 100%);
+  padding: 6px 0px 6px 0px;
   color: antiquewhite;
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.945));
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 10px;
   font-weight: bold;
-  font-family: "Monomaniac One", sans-serif;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -156,8 +158,8 @@
   }
 
   .titleMyWork {
-    font-size: 22px;
-    padding-top: 0px;
+    width: 100%;
+    font-size: 19px;
     margin-bottom: 10px;
   }
 

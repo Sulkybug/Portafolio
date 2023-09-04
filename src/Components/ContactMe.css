@@ -16,7 +16,7 @@
 .contactMeBox {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 70%;
   justify-content: space-evenly;
   align-items: center;
   border-radius: 20px;
@@ -152,7 +152,6 @@ textarea {
 
   .contactMeBox {
     height: 70vh;
-    width: 70%;
   }
 
   input {
@@ -170,7 +169,7 @@ textarea {
   #ContactMe {
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
   }
 
   .formBox {
@@ -186,8 +185,10 @@ textarea {
   }
 
   .contactMeBox {
+    margin-top: 50px;
     flex-direction: column;
     width: 80%;
+    height: 73vh;
   }
 
   .p-ContactMe {
@@ -200,7 +201,7 @@ textarea {
 
   .titleContactMe {
     font-size: 30px;
-    top: 40px;
+    top: 95px;
   }
 
   input {
