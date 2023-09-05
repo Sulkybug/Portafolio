@@ -59,7 +59,7 @@ export const Projects = [
   {
     id: 9,
     name: "Bakery Website",
-    img: "/Portafolio/img/project10.jpg",
+    img: "/Portafolio/img/project11.jpg",
     link: "https://sulkybug.github.io/ZeroPorcientoAzucar/",
     codeLink: "https://github.com/Sulkybug/ZeroPorcientoAzucar",
   },
