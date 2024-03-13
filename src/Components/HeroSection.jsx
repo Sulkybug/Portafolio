@@ -41,7 +41,8 @@ function HeroSection({ classDiv }) {
       </p>
       <a href="#myWork" className="sendToPortafolio">
         <button className="btn-Projects">
-          Check Out My Projects <FaArrowDown />
+          Check Out My Projects&thinsp;
+          <FaArrowDown />
         </button>
       </a>
     </div>

@@ -108,9 +108,9 @@ textarea {
   border: 2px solid antiquewhite;
   font-size: 20px;
   margin-top: 10px;
-  padding: 7px;
+  padding: 7px 10px 7px 10px;
   border-radius: 8px;
-  background: none;
+  background: rgba(0, 0, 0, 0.589);
   box-shadow: rgba(0, 0, 0, 0.678) 2px 0 10px;
   cursor: pointer;
   z-index: 2;
@@ -118,10 +118,11 @@ textarea {
 }
 
 .sendMessage:hover {
-  color: salmon;
+  color: antiquewhite;
   border: 2px solid salmon;
   scale: 1.05;
   transition: 0.2s;
+  background-color: rgba(253, 113, 98, 0.404);
   box-shadow: orange 2px 0 10px;
   text-shadow: black 1px 0 5px;
 }

@@ -57,7 +57,8 @@ function ContactMe() {
               required
             ></textarea>
             <button className="sendMessage">
-              Send Message <FaPaperPlane />
+              Send Message&thinsp;
+              <FaPaperPlane />
             </button>
           </form>
         </div>
