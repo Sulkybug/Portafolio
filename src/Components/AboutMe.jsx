@@ -71,9 +71,9 @@ function AboutMe() {
             loading="lazy"
           />
           <img
-            src="/Portafolio/img/sass.png"
-            alt="Sass"
-            title="Sass"
+            src="/Portafolio/img/python.png"
+            alt="Python"
+            title="Python"
             className="langImg"
             width="512"
             height="512"

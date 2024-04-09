@@ -185,6 +185,9 @@ nav a:hover,
     height: 80px;
     font-size: 20px;
     text-align: center;
+    border-top: solid 1px antiquewhite;
+    border-bottom: solid 1px antiquewhite;
+    box-shadow: rgba(161, 201, 16, 0.178) 2px 2px 50px;
   }
 
   nav a:hover {

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./HeroSection.css";
-import { FaArrowDown } from "react-icons/fa";
 function HeroSection({ classDiv }) {
   const [MousePosition, setMousePosition] = useState({
     left: 800,
@@ -40,10 +39,7 @@ function HeroSection({ classDiv }) {
         efficent coding."
       </p>
       <a href="#myWork" className="sendToPortafolio">
-        <button className="btn-Projects">
-          Check Out My Projects&thinsp;
-          <FaArrowDown />
-        </button>
+        <button className="btn-Projects">Check Out My Projects</button>
       </a>
     </div>
   );

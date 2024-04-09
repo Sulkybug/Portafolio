@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-container {
   background: linear-gradient(rgba(0, 0, 25, 0.671), rgba(0, 0, 25, 0.938)),
     url(/img/wallpaperleaves.jpeg);
@@ -96,20 +100,20 @@ p {
   align-items: center;
   text-decoration: none;
   color: antiquewhite;
-  border: 2px solid antiquewhite;
+  border: 2px solid rgb(107, 0, 75);
   text-shadow: black 2px 0 10px;
   font-size: 23px;
   margin-top: 80px;
   padding: 7px 10px 7px 10px;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.589);
-  box-shadow: black 2px 0 10px;
+  box-shadow: rgba(121, 0, 115, 0.5) 2px 2px 50px;
   cursor: pointer;
 }
 
 .btn-Projects:hover {
   border: 4px solid salmon;
-  scale: 1.05;
+  scale: 1.02;
   transition: 0.5s;
   background-color: rgba(253, 113, 98, 0.404);
   color: antiquewhite;
