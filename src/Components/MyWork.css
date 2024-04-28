@@ -4,9 +4,7 @@
   align-items: center;
   height: 100vh;
   background-color: #ccc;
-  background: linear-gradient(62deg, #101011ef 0%, #737c76cc 100%),
-    url(/img/nature.jpg);
-  background: linear-gradient(62deg, #020202da 0%, #737c76cc 100%),
+  background: linear-gradient(62deg, #020202ee 0%, #9da8a1b7 100%),
     url(/img/nature.jpg);
   background-attachment: fixed;
   text-align: center;
