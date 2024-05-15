@@ -51,7 +51,7 @@ function MyWork() {
             <div className="project">
               <a
                 href={item.link}
-                target="_blank"
+                target="_new"
                 className="imgLink"
                 data="Visit Website >"
               >
@@ -65,7 +65,7 @@ function MyWork() {
               </a>
               <div className="textBox">
                 <p className="projectName">{item.name}</p>
-                <a href={item.codeLink} target="_blank" className="checkCode">
+                <a href={item.codeLink} target="_new" className="checkCode">
                   Check code
                 </a>
               </div>

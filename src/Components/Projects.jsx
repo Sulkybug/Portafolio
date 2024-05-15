@@ -36,12 +36,13 @@ export const Projects = [
     codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer-TS/",
   },
   {
-    id: 6,
-    name: "Mini Piano",
-    img: "/Portafolio/img/project6.jpg",
-    link: "https://sulkybug.github.io/Mini-Piano/",
-    codeLink: "https://github.com/Sulkybug/Mini-Piano",
+    id: 12,
+    name: "Calculator React",
+    img: "/Portafolio/img/project12.jpg",
+    link: "https://sulkybug.github.io/Calculator/",
+    codeLink: "https://github.com/Sulkybug/Calculator",
   },
+
   {
     id: 7,
     name: "Caesar Cipher ROT ALL",
@@ -51,7 +52,7 @@ export const Projects = [
   },
   {
     id: 8,
-    name: "Converter",
+    name: "Converter React",
     img: "/Portafolio/img/project8.jpg",
     link: "https://sulkybug.github.io/Converter/",
     codeLink: "https://github.com/Sulkybug/Converter",
@@ -65,16 +66,23 @@ export const Projects = [
   },
   {
     id: 10,
-    name: "List of Things to do",
+    name: "List of Things to do React",
     img: "/Portafolio/img/project10.jpg",
     link: "https://sulkybug.github.io/List-of-things-to-do/",
     codeLink: "https://github.com/Sulkybug/List-of-things-to-do",
   },
   {
     id: 11,
-    name: "Roll The Dice",
+    name: "Roll The Dice React",
     img: "/Portafolio/img/project11.jpg",
     link: "https://sulkybug.github.io/RollTheDice/",
     codeLink: "https://github.com/Sulkybug/RollTheDice",
+  },
+  {
+    id: 6,
+    name: "Mini Piano",
+    img: "/Portafolio/img/project6.jpg",
+    link: "https://sulkybug.github.io/Mini-Piano/",
+    codeLink: "https://github.com/Sulkybug/Mini-Piano",
   },
 ];
