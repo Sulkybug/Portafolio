@@ -48,7 +48,7 @@ function MyWork() {
 
         <Slider {...settings}>
           {Projects.map((item) => (
-            <div className="project">
+            <div className="project" key={item.id}>
               <a
                 href={item.link}
                 target="_new"

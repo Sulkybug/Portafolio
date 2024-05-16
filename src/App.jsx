@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import PrePageLoader from "./Components/PrePageLoader";
-import Navbar from "./Components/Navbar";
-import HeroSection from "./Components/HeroSection";
-import AboutMe from "./Components/AboutMe";
-import MyWork from "./Components/MyWork";
-import ContactMe from "./Components/ContactMe";
-import LateralBar from "./Components/LateralBar";
-import Footer from "./Components/Footer";
-//import Images from "./Components/Images";
+import PrePageLoader from "./Components/PrePageLoader/PrePageLoader";
+import Navbar from "./Components/Navbar/Navbar";
+import HeroSection from "./Components/HeroSection/HeroSection";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import MyWork from "./Components/MyWork/MyWork";
+import ContactMe from "./Components/ContactMe/ContactMe";
+import LateralBar from "./Components/LateralBar/LateralBar";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [onScroll, SetOnScroll] = useState("");
