@@ -123,14 +123,14 @@ function AboutMe() {
         <h2 className="titleAbout">About Me</h2>
         <hr className="hrAbout" />
         <p className="textAboutMe">
-          I am a Pilot and a{" "}
-          <strong>Frontend Developer Javascript, ReactJSX. </strong> I love
-          learning and applying my knowlege, always thinking how to make things
-          in the best way possible.
+          I am a Pilot and a <strong>Frontend Developer ReactJS. </strong>{" "}
+          Proficient in JavaScript, TypeScript, CSS, HTML, and React, with
+          intermediate knowledge of Python and SQL.
         </p>
         <p className="textAboutMe">
-          Currently improving my skills in Algorithm solutions, AI and Computer
-          Science learning about Javascript Canvas.
+          Adept at collaborating with teams to deliver high-quality web
+          applications. Seeking to leverage my skills and passion for web
+          development in a dynamic and innovative company.
         </p>
         <a href="#ContactMe">
           <button className="sendToContact">Send me a message</button>

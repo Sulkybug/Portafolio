@@ -66,7 +66,7 @@ export const Projects = [
   },
   {
     id: 10,
-    name: "List of Things to do React",
+    name: "List of Things to do",
     img: "/Portafolio/img/project10.jpg",
     link: "https://sulkybug.github.io/List-of-things-to-do/",
     codeLink: "https://github.com/Sulkybug/List-of-things-to-do",
