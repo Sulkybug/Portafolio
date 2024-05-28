@@ -89,6 +89,7 @@ input {
 
 textarea {
   margin: auto;
+  margin-top: 3px;
   max-width: 500px;
   font-size: 20px;
   margin-bottom: 20px;
@@ -127,6 +128,15 @@ textarea {
   text-shadow: black 1px 0 5px;
 }
 
+.text-red {
+  color: orangered;
+  margin: 2px 0px 5px;
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  font-size: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1400px) {
   .titleContactMe {
     top: 70px;
@@ -163,6 +173,11 @@ textarea {
 
   .sendMessage {
     font-size: 16px;
+  }
+
+  .text-red {
+    font-size: 18px;
+    width: 70%;
   }
 }
 
@@ -223,5 +238,10 @@ textarea {
 
   .hrContact {
     width: 250px;
+  }
+
+  .text-red {
+    font-size: 14px;
+    width: 80%;
   }
 }
