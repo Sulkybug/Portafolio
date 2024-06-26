@@ -86,7 +86,13 @@ function ContactMe() {
               <div className="text-red">{errors.email.message}</div>
             )}
             <input
-              {...register("email", { required: "Email is required" })}
+              {...register("email", {
+                required: "Email is required",
+                pattern: {
+                  value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
+                  message: "Invalid email address",
+                },
+              })}
               type="email"
               name="email"
               id="email"
