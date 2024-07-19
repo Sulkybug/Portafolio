@@ -130,11 +130,26 @@ textarea {
 
 .text-red {
   color: orangered;
-  margin: 2px 0px 5px;
+  margin: 5px 0px 3px;
   filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
-  font-size: 20px;
+  font-size: 19px;
   max-width: 500px;
   width: 100%;
+}
+
+.button-disabled {
+  box-shadow: rgba(0, 0, 0, 0.678) 2px 0 10px;
+  border: 2px solid salmon;
+}
+
+.button-disabled:hover {
+  box-shadow: rgba(0, 0, 0, 0.678) 2px 0 10px;
+  background: rgba(0, 0, 0, 0.589);
+  filter: drop-shadow(10px 10px 10px rgb(0, 0, 0));
+  scale: 1;
+  font-weight: normal;
+  cursor: auto;
+  border: 2px solid salmon;
 }
 
 @media only screen and (max-width: 1400px) {

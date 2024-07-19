@@ -127,7 +127,7 @@ function ContactMe() {
             ></textarea>
             <button
               type="submit"
-              className="sendMessage"
+              className={`sendMessage ${loading ? "button-disabled" : ""}`}
               disabled={loading || isSubmitting}
             >
               {loading || isSubmitting ? "Loading..." : "Send Message"}
