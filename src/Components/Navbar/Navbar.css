@@ -26,6 +26,7 @@ html {
 .myLogo {
   width: 40px;
   height: 40px;
+  -webkit-user-drag: none;
 }
 
 .logoText {
