@@ -53,6 +53,7 @@ iframe {
   width: 80px;
   height: 80px;
   padding: 5px;
+  -webkit-user-drag: none;
 }
 
 .langImg:hover {

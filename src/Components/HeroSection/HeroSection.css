@@ -81,6 +81,7 @@ p {
   width: 65px;
   height: 65px;
   box-shadow: "0px 0px 10px  rgba(255, 81, 0, 0.548)";
+  -webkit-user-drag: none;
 }
 
 .description {

@@ -20,12 +20,13 @@ export const Projects = [
     link: "https://sulkybug.github.io/7-Segment-Display/",
     codeLink: "https://github.com/Sulkybug/7-Segment-Display",
   },
+
   {
     id: 4,
-    name: "Product Website Concept ",
+    name: "Comments on media React",
     img: "/Portafolio/img/project4.jpg",
-    link: "https://sulkybug.github.io/monkeyFist-OnlineStore-Concept/",
-    codeLink: "https://github.com/Sulkybug/monkeyFist-OnlineStore-Concept",
+    link: "https://sulkybug.github.io/Caso-Final/",
+    codeLink: "https://github.com/Sulkybug/Caso-Final",
   },
 
   {
@@ -36,9 +37,9 @@ export const Projects = [
     codeLink: "https://github.com/Sulkybug/Digital-Watch-chronometer-TS/",
   },
   {
-    id: 12,
+    id: 6,
     name: "Calculator React",
-    img: "/Portafolio/img/project12.jpg",
+    img: "/Portafolio/img/project6.jpg",
     link: "https://sulkybug.github.io/Calculator/",
     codeLink: "https://github.com/Sulkybug/Calculator",
   },
@@ -59,18 +60,19 @@ export const Projects = [
   },
   {
     id: 9,
-    name: "Bakery Website",
+    name: "Business Website Concept",
     img: "/Portafolio/img/project9.jpg",
-    link: "https://sulkybug.github.io/ZeroPorcientoAzucar/",
-    codeLink: "https://github.com/Sulkybug/ZeroPorcientoAzucar",
+    link: "https://sulkybug.github.io/MarianasVillage/#/#hero",
+    codeLink: "https://github.com/Sulkybug/MarianasVillage",
   },
   {
     id: 10,
-    name: "List of Things to do",
+    name: "Product Website Concept ",
     img: "/Portafolio/img/project10.jpg",
-    link: "https://sulkybug.github.io/List-of-things-to-do/",
-    codeLink: "https://github.com/Sulkybug/List-of-things-to-do",
+    link: "https://sulkybug.github.io/monkeyFist-OnlineStore-Concept/",
+    codeLink: "https://github.com/Sulkybug/monkeyFist-OnlineStore-Concept",
   },
+
   {
     id: 11,
     name: "Roll The Dice React",
@@ -79,9 +81,9 @@ export const Projects = [
     codeLink: "https://github.com/Sulkybug/RollTheDice",
   },
   {
-    id: 6,
+    id: 12,
     name: "Mini Piano",
-    img: "/Portafolio/img/project6.jpg",
+    img: "/Portafolio/img/project12.jpg",
     link: "https://sulkybug.github.io/Mini-Piano/",
     codeLink: "https://github.com/Sulkybug/Mini-Piano",
   },
